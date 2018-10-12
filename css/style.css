@@ -1,0 +1,69 @@
+body{
+	font-size:16px;
+}
+#header{
+	width: 100%;
+	text-align:center;
+}
+.title{
+	font: bold 50px 幼圆;
+	color: #8f7a66;
+	margin:10px auto;
+}
+
+.box{
+	display:flex;
+	width:500px;
+	margin:20px auto;
+	justify-content:space-between;
+}
+.score,.new{
+	width: 120px;
+	height:40px;
+	background-color:#8f7a66;
+	/* padding:5px; */
+	border-radius:10px;
+	color:white;
+	box-sizing: border-box;
+}
+.score{
+	width: 180px;
+}
+.new:hover{
+	background-color:#98897a;
+	cursor:pointer;
+}
+.score_num{
+	font-size:28px;
+}
+.new_text, .score_text{
+	font-size:20px;
+ }
+.score_text, .score_num, .new_text{
+ 	vertical-align:middle;
+ 	line-height:40px;
+ }
+#back{
+	width: 500px;
+	height: 500px;
+	background-color:#bbada0;
+	border-radius:10px;
+	margin:0 auto;
+	padding:20px;
+	position:relative;
+	box-sizing: border-box;
+}
+.fix{
+	width: 100px;
+	height: 100px;
+	background-color:#cdc1b4;
+	border-radius:20px;
+	position:absolute;
+}
+.move{
+	border-radius:20px;
+	position:absolute;
+	font:bold 50px 黑体;
+	line-height:100px;
+	text-align:center;
+}
