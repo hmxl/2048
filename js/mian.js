@@ -283,9 +283,14 @@ document.addEventListener('touchstart', function(e){
 	starty=e.touches[0].pageY;
 });
 
+document.addEventListener('touchmove', function(e){
+	e.preventDefault();
+	// e.stopPropagation();
+});
+
 document.addEventListener('touchend', function(e){
-	endx=event.changedTouches[0].pageX;
-	endy=event.changedTouches[0].pageY;
+	endx=e.changedTouches[0].pageX;
+	endy=e.changedTouches[0].pageY;
 
 	//判断滑动方向
 	var deltax=endx-startx;
