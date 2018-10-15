@@ -1,19 +1,21 @@
 body{
 	font-size:16px;
 }
+#boxx{
+	position:fixed;
+}
 #header{
 	width: 100%;
 	text-align:center;
-	position:fixed;
 }
 .title{
 	font: bold 50px 幼圆;
 	color: #8f7a66;
 	margin:10px auto;
 }
-#container{
-	position:fixed;
-}
+/* #container{
+	
+} */
 .box{
 	display:flex;
 	width:500px;
