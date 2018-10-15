@@ -16,9 +16,6 @@ var state = new Array();
 
 $(function(){
 	newGame();
-	document.querySelector('body').addEventListener('touchstart', function (event) {
-		event.preventDefault();
-	});
 });
 
 
@@ -284,20 +281,20 @@ $(document).keydown(function(event){
 });
 
 document.addEventListener('touchstart', function(e){
-	e.preventDefault();
+	event.preventDefault();
 // 	document.documentElement.style.touchAction = 'none';
 	startx=e.touches[0].pageX;
 	starty=e.touches[0].pageY;
 });
 
 document.addEventListener('touchmove', function(e){
-	e.preventDefault();
-	e.stopPropagation();
+	event.preventDefault();
+	event.stopPropagation();
 // 	document.documentElement.style.touchAction = 'auto';
 });
 
 document.addEventListener('touchend', function(e){
-	e.preventDefault();
+	event.preventDefault();
 	endx=e.changedTouches[0].pageX;
 	endy=e.changedTouches[0].pageY;
 
