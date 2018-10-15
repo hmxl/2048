@@ -16,7 +16,12 @@ var state = new Array();
 
 $(function(){
 	newGame();
+	document.querySelector('body').addEventListener('touchstart', function (event) {
+		event.preventDefault();
+	});
 });
+
+
 
 function newGame(){
 	if(documentWidth>800){
