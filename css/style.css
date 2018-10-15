@@ -1,10 +1,10 @@
 body{
-	position:fixed;
 	font-size:16px;
 }
 #header{
 	width: 100%;
 	text-align:center;
+	position:fixed;
 }
 .title{
 	font: bold 50px 幼圆;
