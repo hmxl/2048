@@ -2,7 +2,7 @@ body{
 	font-size:16px;
 }
 #boxx{
-	position:fixed;
+	width:100%;
 }
 #header{
 	width: 100%;
