@@ -10,7 +10,9 @@ body{
 	color: #8f7a66;
 	margin:10px auto;
 }
-
+#container{
+	position:fixed;
+}
 .box{
 	display:flex;
 	width:500px;
